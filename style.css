@@ -1,0 +1,32 @@
+html body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.qr-container {
+    background-color: white;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 5%;
+}
+
+.image-container img {
+    width: 300px;
+    border-radius: 5%;
+}
+
+.text-container {
+    margin: 10px;
+}
+
+.text-container p {
+    font-size: 1.2rem;
+    text-align: center;
+    color: grey;
+}
